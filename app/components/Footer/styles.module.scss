@@ -1,0 +1,11 @@
+@import "../../styles/global.scss";
+
+.container{
+    width: 100%;
+    background-color: $color_background_1;
+    
+    h1{
+        color: $color_font;
+        margin: 0;
+    }
+}
