@@ -1,0 +1,40 @@
+@import "../../styles/global.scss";
+
+.container{
+    width: 264px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            margin: 0;
+            color: $color_font_white;
+            font-size: $font_title_produto;
+        }
+    
+        p:first-child{
+            font-size: $font_descricao;
+            color: $color_background_2;
+        }
+
+        .btnsCart{
+            display: flex;
+            flex-direction: row;
+
+            button{
+                border: none;
+                outline: none;
+            }
+
+            .btnComprar{
+                background-color: $color_background_2;
+                color: $color_font_dark_2;
+                border-radius: 4px;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+        }
+    }
+    
+}
