@@ -2,9 +2,10 @@
 
 .container {
     width: 100%;
+    background-image: url("/images/backgrounds/bg_all.png");
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
     @media(max-width: $mobile) {
@@ -35,8 +36,8 @@
         }
     }
 
-    // img {
-    //     width: 70%;
-    // }
+    img {
+        width: 60%;
+    }
 
 }
