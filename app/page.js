@@ -2,10 +2,10 @@ import Image from "next/image";
 import styles from './styles/styles.module.scss';
 import Hero from "./components/Hero";
 import PrincipaisProdutos from "./components/PrincipaisProdutos";
-import Beneficios from "./components/Beneficios";
-import Depoimentos from "./components/Depoimentos";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import OrigemGrao from "./components/Etapas";
+import EmbalagemEspecial from "./components/EmbalagemEspecial";
 
 export default function Home() {
     return (
@@ -13,8 +13,8 @@ export default function Home() {
             <Nav/>
             <Hero/>
             <PrincipaisProdutos/>
-            <Beneficios/>
-            <Depoimentos/>
+            <OrigemGrao/>
+            <EmbalagemEspecial/>
             <Footer/>
         </div>
     );

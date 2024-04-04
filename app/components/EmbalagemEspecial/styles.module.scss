@@ -1,0 +1,70 @@
+@import '../../styles/global.scss';
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+
+    @media(max-width: 680px) {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        width: 80%;
+        position: relative;
+        background-color: #F1E5DC;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 5rem;
+        box-sizing: border-box;
+        border-radius: 2rem;
+        z-index: 1;
+
+        img{
+            width: 38rem;
+            position: absolute;
+            left: -8rem;
+            top: -1rem;
+        }
+        
+        div{
+            width: 648px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            h1{
+                font-size: $font_title;
+                font-family: "Sail";
+                color: #CB6A48;
+                margin: 0;
+            }
+            
+            p{
+                text-align: justify;
+                font-size: $font_text;
+                margin-top: 3rem;
+            }
+        }        
+    }
+    
+    .boxBack{
+        width: 80%;
+        position: absolute;
+        height: 30rem;
+        border: 1px solid #CB6A48;
+        border-radius: 2rem;
+        background-color: transparent;
+        left: 9rem;
+        z-index: 0;
+        transform: rotate(173deg);    
+    }
+
+}
