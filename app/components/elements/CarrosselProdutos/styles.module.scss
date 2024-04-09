@@ -6,6 +6,7 @@
     .content{
         display: flex;
         flex-direction: column;
+        text-align: center;
 
         h3{
             margin: 0;
@@ -13,9 +14,13 @@
             font-size: $font_title_produto;
         }
     
-        p:first-child{
+        .desc{
             font-size: $font_descricao;
             color: $color_background_2;
+        }
+
+        .preco{
+            color: $color_font_white;
         }
 
         .btnsCart{
@@ -25,6 +30,7 @@
             button{
                 border: none;
                 outline: none;
+                background-color: transparent;
             }
 
             .btnComprar{
