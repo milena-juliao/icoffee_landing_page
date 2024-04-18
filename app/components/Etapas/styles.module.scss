@@ -26,10 +26,14 @@
         align-items: flex-start;
 
         h1 {
-            font-family: "Sail";
+            font-family: 'Poppins';
             font-weight: 400;
-            font-size: 64px;
-            color: #F1E5DC;
+            font-size: $font_subtitle_2;
+            color: $color_font_gray;
+
+            span{
+                color: $color_background_2;
+            }
         }
 
         p {
@@ -37,7 +41,7 @@
             font-weight: 400;
             font-size: 18px;
             text-align: justify;
-            color: #CB6A48;
+            color: $color_background_2;
         }
     }
 

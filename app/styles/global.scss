@@ -1,5 +1,6 @@
 //Font Colors
 $color_font_white: #fff;
+$color_font_gray: #F1E5DC;
 $color_font_dark: rgba(43, 19, 14, 1);
 $color_font_dark_2: rgba(34, 16, 12, 1);
 $color_font_light: rgba(142, 63, 13, 1);
@@ -12,6 +13,7 @@ $color_background_2: #CB6A48;
 $font_title: 64px;
 $font_diferenciais: 60px;
 $font_subtitle: 40px;
+$font_subtitle_2: 38px;
 $font_title_produto: 26px;
 $font_button: 20px;
 $font_text: 18px;
@@ -23,4 +25,8 @@ $mobile: 680px;
 
 .container{
     font-family: 'Poppins';
+
+    h1,h2,h3,p{
+        margin: 0;
+    }
 }

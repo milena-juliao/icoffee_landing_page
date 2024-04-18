@@ -1,15 +1,21 @@
 @import "../../../styles/global.scss";
 
 .container{
-    width: 264px;
+    width: 80%;
 
     .content{
+        width: 264px;
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
 
+        .img_produto{
+            width: 70%;
+        }
+
         h3{
-            margin: 0;
+            margin: 1rem 0;
             color: $color_font_white;
             font-size: $font_title_produto;
         }
@@ -21,19 +27,23 @@
 
         .preco{
             color: $color_font_white;
+            margin: 1rem;
         }
 
         .btnsCart{
             display: flex;
             flex-direction: row;
+            gap: 1rem;
 
             button{
                 border: none;
                 outline: none;
                 background-color: transparent;
+                cursor: pointer;
             }
 
             .btnComprar{
+                width: 11.5rem;
                 background-color: $color_background_2;
                 color: $color_font_dark_2;
                 border-radius: 4px;

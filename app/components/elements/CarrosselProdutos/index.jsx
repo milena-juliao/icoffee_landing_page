@@ -4,7 +4,7 @@ export default function CarrosselProdutos() {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <img src="/images/produtos/produto_1.png" alt="Imagem do produto x"/>
+                <img className={styles.img_produto} src="/images/produtos/produto_1.png" alt="Imagem do produto x"/>
                 <h3>Café Tipo 1</h3>
                 <p className={styles.desc}>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 <p className={styles.preco}>R$ 999,99</p>
